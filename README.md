@@ -37,44 +37,6 @@ Usage
         Press 'p' to navigate to the previous month.
         Press 'e' to exit the program.
 
-
-#Example - 
-
-Enter Year: 2023 <br>
-Enter Month: 5 <br>
-
-    May 2023 <br>
-Su Mo Tu We Th Fr Sa <br>
-   1  2  3  4  5  6 <br>
-  7  8  9 10 11 12 13 <br>
- 14 15 16 17 18 19 20 <br>
- 21 22 23 24 25 26 27 <br>
- 28 29 30 31 <br
-
-Choose an option: <br>
-n - Next month <br>
-p - Previous month <br>
-e - Exit <br>
-
-
-Algorithm: Zeller's Congruence <br>
-
-Zeller's Congruence is a formula to calculate the day of the week for any given date. In this project, we use Zeller's Congruence to determine the starting day of each month in the calendar, which helps in formatting the calendar correctly.
-
-Zeller's Congruence Formula
-
-Given a date (day, month, year), the day of the week can be calculated as:
-h=(q+⌊13(m+1)5⌋+K+⌊K4⌋+⌊J4⌋−2J)mod7
-h=(q+⌊513(m+1)​⌋+K+⌊4K​⌋+⌊4J​⌋−2J)mod7
-
-where:
-
-    hh: Day of the week (0 = Saturday, 1 = Sunday, 2 = Monday, …)
-    qq: Day of the month
-    mm: Month (3 = March, 4 = April, …, 12 = December, 1 = January, 2 = February)
-    KK: Year of the century (year % 100)
-    JJ: Zero-based century (year / 100)
-    
 Project Structure
 
     calendar.c: Main C file containing functions for date calculation, navigation, and user input handling.
