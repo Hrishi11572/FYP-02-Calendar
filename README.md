@@ -55,3 +55,5 @@ To compile the project, use the following command:
 <img width="1440" alt="Screenshot 2024-12-16 at 11 11 06 PM" src="https://github.com/user-attachments/assets/594bb332-dec5-453e-af63-545ab1035ab3" />
 
 
+PS : And the output is correct as I know I was born on Sunday ;)
+
